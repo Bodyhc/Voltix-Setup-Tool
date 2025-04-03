@@ -1,6 +1,6 @@
 import { templates } from "../data/templates";
 import type { Template } from "../types";
-import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "./ui/card";
+import { Card, CardDescription, CardFooter, CardHeader, CardTitle } from "./ui/card";
 import { Badge } from "./ui/badge";
 import { Button } from "./ui/button";
 import { Bookmark, Info } from "lucide-react";
