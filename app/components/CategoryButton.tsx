@@ -1,7 +1,7 @@
 import { ReactNode } from 'react';
 
 interface CategoryButtonProps {
-  id: string;
+  // id: string;
   name: string;
   icon: ReactNode;
   isSelected: boolean;
