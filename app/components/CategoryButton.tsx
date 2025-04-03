@@ -8,7 +8,7 @@ interface CategoryButtonProps {
   onClick: () => void;
 }
 
-export function CategoryButton({ id, name, icon, isSelected, onClick }: CategoryButtonProps) {
+export function CategoryButton({ name, icon, isSelected, onClick }: CategoryButtonProps) {
   return (
     <button
       onClick={onClick}
