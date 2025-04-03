@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import type { Template } from '../types';
 import { FaStar } from 'react-icons/fa';
-import { toast } from 'sonner';
+// import { toast } from 'sonner';
 
 interface RatingModalProps {
   onClose: () => void;
