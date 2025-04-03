@@ -60,7 +60,7 @@ Setup Tool is a comprehensive web application designed to help developers create
 
 1. Clone the repository
 ```bash
-git clone https://github.com/yourusername/setuptool.git
+git clone https://github.com/Bodyhc/Voltix-Setup-Tool.git
 cd setuptool
 ```
 
@@ -145,7 +145,8 @@ yarn dev
 
 1. استنساخ المستودع
 ```bash
-git clone https://github.com/yourusername/setuptool.git
+git clone https://github.com/Bodyhc/Voltix-Setup-Tool.git
+
 cd setuptool
 ```
 
@@ -198,5 +199,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ---
 
 <div align="center">
-Made with ❤️ by [Your Name]
+Made with ❤️ by [Bodyhc]
 </div>
