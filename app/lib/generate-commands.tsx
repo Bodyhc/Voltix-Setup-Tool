@@ -1,7 +1,6 @@
 import path from "path";
 import fs from "fs-extra";
 import { execSync } from "child_process";
-import AdmZip from "adm-zip";
 
 // تحديد المسار المطلق للملفات
 // const APP_ROOT = process.cwd();
