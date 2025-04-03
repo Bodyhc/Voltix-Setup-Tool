@@ -8,7 +8,6 @@
 
 A powerful web application for managing and setting up project templates with a modern UI.
 
-A powerful web application for managing and setting up project templates with a modern user interface.
 
 [English](#english) | [العربية](#arabic)
 
