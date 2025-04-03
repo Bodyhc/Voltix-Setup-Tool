@@ -1,4 +1,4 @@
-# Setup Tool / أداة الإعداد
+# Voltix Setup Tool 
 
 <div align="center">
 
