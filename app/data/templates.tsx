@@ -27,9 +27,7 @@ import {
   Library,
   Factory,
   Gamepad2,
-  FileText,
   Terminal,
-  Package,
 } from "lucide-react";
 import { Template } from "../types";
 
