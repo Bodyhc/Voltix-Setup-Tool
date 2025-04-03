@@ -8,6 +8,7 @@
 
 A powerful web application for managing and setting up project templates with a modern UI.
 
+تطبيق ويب قوي لإدارة وإعداد قوالب المشاريع مع واجهة مستخدم حديثة.
 
 [English](#english) | [العربية](#arabic)
 
@@ -60,7 +61,7 @@ Setup Tool is a comprehensive web application designed to help developers create
 
 1. Clone the repository
 ```bash
-git clone https://github.com/Bodyhc/Voltix-Setup-Tool.git
+git clone https://github.com/yourusername/setuptool.git
 cd setuptool
 ```
 
@@ -145,8 +146,7 @@ yarn dev
 
 1. استنساخ المستودع
 ```bash
-git clone https://github.com/Bodyhc/Voltix-Setup-Tool.git
-
+git clone https://github.com/yourusername/setuptool.git
 cd setuptool
 ```
 
@@ -199,5 +199,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ---
 
 <div align="center">
-Made with ❤️ by [Bodyhc]
+Made with ❤️ by [Your Name]
 </div>

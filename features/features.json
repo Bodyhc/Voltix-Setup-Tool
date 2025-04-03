@@ -1,0 +1,165 @@
+{
+  "typescript": {
+    "name": "TypeScript",
+    "description": "Static type checking",
+    "category": "development",
+    "files": ["tsconfig.json"],
+    "dependencies": { "typescript": "^4.5.4" },
+    "installCommand": "npm install --save-dev typescript @types/node"
+  },
+  "eslint": {
+    "name": "ESLint",
+    "description": "Code linting and formatting",
+    "category": "development",
+    "files": [".eslintrc.js"],
+    "dependencies": {
+      "eslint": "^8.0.1"
+    },
+    "installCommand": "npm install --save-dev eslint @typescript-eslint/parser @typescript-eslint/eslint-plugin"
+  },
+  "prettier": {
+    "name": "Prettier",
+    "description": "Code formatting",
+    "category": "development",
+    "files": [".prettierrc"],
+    "dependencies": {
+      "prettier": "^2.3.2"
+    },
+    "installCommand": "npm install --save-dev prettier eslint-config-prettier eslint-plugin-prettier"
+  },
+  "storybook": {
+    "name": "Storybook",
+    "description": "UI component development",
+    "category": "development",
+    "files": [".storybook/main.js"],
+    "dependencies": {
+      "@storybook/react": "^6.4.0"
+    },
+    "installCommand": "npx storybook@latest init"
+  },
+  "webpack": {
+    "name": "Webpack",
+    "description": "Advanced bundling configuration",
+    "category": "development",
+    "files": ["webpack.config.js"],
+    "dependencies": {
+      "webpack": "^5.0.0"
+    },
+    "installCommand": "npm install --save-dev webpack webpack-cli webpack-dev-server"
+  },
+  "vite": {
+    "name": "Vite",
+    "description": "Next generation frontend tooling",
+    "category": "development",
+    "files": ["vite.config.js"],
+    "dependencies": {
+      "vite": "^2.9.9"
+    },
+    "installCommand": "npm install --save-dev vite @vitejs/plugin-react"
+  },
+  "pwa": {
+    "name": "PWA Support",
+    "description": "Progressive Web App capabilities",
+    "category": "development",
+    "files": ["public/manifest.json", "service-worker.js"],
+    "dependencies": {
+      "workbox-build": "^6.1.0"
+    },
+    "installCommand": "npm install --save-dev workbox-build"
+  },
+  "i18n": {
+    "name": "Internationalization",
+    "description": "Multi-language support",
+    "category": "development",
+    "files": ["i18n.config.js"],
+    "dependencies": {
+      "i18next": "^21.6.3",
+      "react-i18next": "^11.15.0"
+    },
+    "installCommand": "npm install i18next react-i18next"
+  },
+  "tailwind": {
+    "name": "Tailwind CSS",
+    "description": "Utility-first CSS framework",
+    "category": "styling",
+    "installCommand": "npm install -D tailwindcss postcss autoprefixer && npx tailwindcss init -p"
+  },
+  "sass": {
+    "name": "SASS",
+    "description": "CSS preprocessor",
+    "category": "styling",
+    "installCommand": "npm install --save-dev sass"
+  },
+  "styled-components": {
+    "name": "Styled Components",
+    "description": "CSS-in-JS styling",
+    "category": "styling",
+    "installCommand": "npm install styled-components @types/styled-components"
+  },
+  "material-ui": {
+    "name": "Material UI",
+    "description": "React UI framework",
+    "category": "styling",
+    "installCommand": "npm install @mui/material @emotion/react @emotion/styled"
+  },
+  "chakra-ui": {
+    "name": "Chakra UI",
+    "description": "Modern component library",
+    "category": "styling",
+    "installCommand": "npm install @chakra-ui/react @emotion/react @emotion/styled framer-motion"
+  },
+  "jest": {
+    "name": "Jest",
+    "description": "Testing framework",
+    "category": "testing",
+    "installCommand": "npm install --save-dev jest @types/jest ts-jest"
+  },
+  "cypress": {
+    "name": "Cypress",
+    "description": "End-to-end testing",
+    "category": "testing",
+    "installCommand": "npm install --save-dev cypress"
+  },
+  "react-testing-library": {
+    "name": "React Testing Library",
+    "description": "React component testing",
+    "category": "testing",
+    "installCommand": "npm install --save-dev @testing-library/react @testing-library/jest-dom"
+  },
+  "redux": {
+    "name": "Redux",
+    "description": "State management",
+    "category": "state",
+    "installCommand": "npm install @reduxjs/toolkit react-redux"
+  },
+  "mobx": {
+    "name": "MobX",
+    "description": "State management",
+    "category": "state",
+    "installCommand": "npm install mobx mobx-react-lite"
+  },
+  "zustand": {
+    "name": "Zustand",
+    "description": "Lightweight state management",
+    "category": "state",
+    "installCommand": "npm install zustand"
+  },
+  "axios": {
+    "name": "Axios",
+    "description": "HTTP client",
+    "category": "http",
+    "installCommand": "npm install axios"
+  },
+  "react-query": {
+    "name": "React Query",
+    "description": "Data fetching and caching",
+    "category": "http",
+    "installCommand": "npm install @tanstack/react-query"
+  },
+  "socket-io": {
+    "name": "Socket.IO",
+    "description": "Real-time communication",
+    "category": "http",
+    "installCommand": "npm install socket.io-client"
+  }
+}
