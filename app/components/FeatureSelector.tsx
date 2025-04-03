@@ -1,4 +1,4 @@
-import { Code2, TestTube2, Rocket, Briefcase } from "lucide-react";
+import { Code2 } from "lucide-react";
 import { FeatureCategory } from "./FeatureCategory";
 import { Feature } from "../types";
 
