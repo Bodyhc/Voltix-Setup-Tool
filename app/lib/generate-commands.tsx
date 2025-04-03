@@ -4,21 +4,21 @@ import { execSync } from "child_process";
 import AdmZip from "adm-zip";
 
 // تحديد المسار المطلق للملفات
-const APP_ROOT = process.cwd();
+// const APP_ROOT = process.cwd();
 
-interface Template {
-  name: string;
-  description: string;
-  category: string;
-  installCommand: string;
-}
+// interface Template {
+//   name: string;
+//   description: string;
+//   category: string;
+//   installCommand: string;
+// }
 
-interface Feature {
-  name: string;
-  description: string;
-  category: string;
-  installCommand: string;
-}
+// interface Feature {
+//   name: string;
+//   description: string;
+//   category: string;
+//   installCommand: string;
+// }
 
 interface ProgressInfo {
   stage: string;
