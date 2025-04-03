@@ -1,30 +1,23 @@
 "use client";
-import React, { useState, useEffect, lazy, Suspense } from "react";
-import { FaGithub, FaLinkedin, FaArrowUp, FaStar, FaShare, FaBookmark } from "react-icons/fa";
-import { ChevronRight, Info } from "lucide-react";
+import React, { useState, useEffect } from "react";
+import { FaGithub, FaLinkedin, FaArrowUp, } from "react-icons/fa";
+import { ChevronRight } from "lucide-react";
 import { TemplateSelector } from "./components/TemplateSelector";
 import { FeatureSelector } from "./components/FeatureSelector";
 import { initialFeatures } from "./data/features";
-import { templates } from "./data/templates";
 import type { Template, Feature } from "./types";
 import ReactMarkdown from "react-markdown";
-import { Button } from "./components/ui/button";
-import { Input } from "./components/ui/input";
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "./components/ui/select";
-import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "./components/ui/card";
-import { Badge } from "./components/ui/badge";
 import { toast } from "sonner";
-import JSZip from "jszip";
 import { Toaster } from "react-hot-toast";
 
-const categories = [
-  { id: 'all', name: 'All Categories' },
-  { id: 'web', name: 'Web Applications' },
-  { id: 'front', name: 'Frontend Applications' },
-  { id: 'mobile', name: 'Mobile Applications' },
-  { id: 'backend', name: 'Backend Applications' },
-  { id: 'enterprise', name: 'Enterprise Applications' }
-];
+// const categories = [
+//   { id: 'all', name: 'All Categories' },
+//   { id: 'web', name: 'Web Applications' },
+//   { id: 'front', name: 'Frontend Applications' },
+//   { id: 'mobile', name: 'Mobile Applications' },
+//   { id: 'backend', name: 'Backend Applications' },
+//   { id: 'enterprise', name: 'Enterprise Applications' }
+// ];
 
 function App() {
   const [step, setStep] = useState<"template" | "features" | "commands">("template");
