@@ -16,4 +16,6 @@ export type Feature = {
   description: string;
   installCommand: string;
   enabled: boolean;
+    category: string;
+
 };
