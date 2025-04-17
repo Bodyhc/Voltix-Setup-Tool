@@ -19,6 +19,8 @@ A powerful web application for managing and setting up project templates with a 
 ### 📋 About The Project
 
 Setup Tool is a comprehensive web application designed to help developers create and manage project templates efficiently. It provides a user-friendly interface for creating, customizing, and deploying project templates with ease.
+## 🚀 Live Demo  
+👉 [Check the Live Demo](https://7otcoffe.netlify.app/)
 
 ### 🚀 Features
 
